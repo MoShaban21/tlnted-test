@@ -131,7 +131,7 @@ body {
         left:50%;
         transform: translateX(-50%);
         /* bottom: -550px; */
-        bottom: -85%;
+        bottom: -700px;
         width: 150px;
         height: 100px;
       z-index: 1;
@@ -140,7 +140,7 @@ body {
 }
 @media(min-width:360px) and (max-width:375px){
   .link{
-    bottom: -100%;
+    bottom: -750px;
   }
 } 
 @media (max-width:768px){
@@ -166,7 +166,7 @@ body {
 }
 @media(max-width:768px){
     .color-key{
-        top:800px;
+        top:820px;
         width: fit-content;
     }
     .color-key .content-box{
@@ -370,7 +370,7 @@ body {
 }
 @media(min-width:360px) and (max-width:375px){
   #summary{
-    /* margin-top: 250px; */
+    margin-top: 80px;
   }
 
 } 
