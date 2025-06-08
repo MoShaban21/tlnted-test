@@ -166,7 +166,7 @@ body {
 }
 @media(max-width:768px){
     .color-key{
-        top:810px;
+        top:805px;
         width: fit-content;
     }
     .color-key .content-box{
