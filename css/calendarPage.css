@@ -186,14 +186,14 @@ body {
 
 }  */
 .color-key .content-box{
-    margin:0 5px;
+    margin:0 10px;
     width: 100%;
 
 }
 @media (max-width:768px){
     .color-key .content-box i{
+      display: block;
         margin-bottom: 10px;
-        display: block;
     }
     .color-key .content-box p{
         text-align: center;
