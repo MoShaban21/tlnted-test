@@ -130,10 +130,12 @@ body {
         padding:10px 15px;
         left:50%;
         transform: translateX(-50%);
-        bottom: -550px;
+        /* bottom: -550px; */
+        bottom: -80%;
         width: 150px;
         height: 100px;
       z-index: 1;
+      margin-top: 50px;
     }
 }
 @media(min-width:360px) and (max-width:375px){
