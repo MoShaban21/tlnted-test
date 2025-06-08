@@ -188,15 +188,23 @@ body {
 .color-key .content-box{
     margin:0 10px;
     width: 100%;
-
+    /* text-align: center; */
 }
 @media (max-width:768px){
+    .content-box{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      /* justify-content: center; */
+    }
     .color-key .content-box i{
       display: block;
         margin-bottom: 10px;
     }
     .color-key .content-box p{
-        text-align: center;
+        /* text-align: center; */
+        color: red;
     }
     /* .color-key{
       width: 450px;
