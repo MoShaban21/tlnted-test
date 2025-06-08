@@ -192,11 +192,15 @@ body {
 }
 @media (max-width:768px){
     .color-key .content-box i{
-        margin-bottom: 6px;
+        margin-bottom: 10px;
+        display: block;
     }
     .color-key .content-box p{
         text-align: center;
     }
+    /* .color-key{
+      width: 450px;
+    } */
 }
 .color-key .content-box:nth-child(1) i{
   color: var(--Tlnted-Holiday);
